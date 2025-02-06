@@ -1,5 +1,6 @@
 # ShulaTech_Solutions_Personal_Portfolio_Kumar
 🚀 Personal Portfolio Website | A responsive portfolio website built using HTML, CSS, and JavaScript. Designed to showcase projects, skills, and contact details.
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="form.html">
     <style>
         * {
             margin: 0;
@@ -114,7 +115,11 @@
         .ThirdSection {
             max-width: 80vw;
             margin: auto;
-            height: 15vh;
+            height: 19vh;
+        }
+
+        .ThirdSection h1 {
+            font-size: 1.9rem;
         }
 
         .ThirdSection ul li {
@@ -124,7 +129,7 @@
         .FourthSection {
             max-width: 80vw;
             margin: auto;
-            height: 30vh;
+            height: 34vh;
         }
 
         .FourthSection ul {
@@ -144,7 +149,7 @@
         .FifthSection {
             max-width: 80vw;
             margin: auto;
-            height: 60vw;
+            height: 45vw;
         }
 
         footer div {
@@ -174,12 +179,23 @@
         .ZerothSection {
             font-size: 1.6rem;
         }
-        .ThirdSection h1 ul li a :hover{
+
+        .ZerothSection h1 {
+            font: 1.9rem;
+        }
+
+        .ThirdSection h1 ul li a :hover {
             font-size: 1.02rem;
             color: lavender;
         }
-       
-        
+
+        .FourthSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .FifthSection h1 {
+            font-size: 1.9rem;
+        }
     </style>
 
 
@@ -196,7 +212,7 @@
                     <li><a href="">Home</li></a>
                     <li><a href="">About</li></a>
                     <li><a href="">Services</li></a>
-                    <li><a href="">Contact Me</li></a>
+                    <li><a href="form.html">Contact Me</li></a>
 
                 </ul>
 
@@ -237,16 +253,19 @@
                 <li>Python - Intermediate</li>
                 <li>SEO</li>
                 <li>Git</li>
-                <li>Github</li>       
-            
+                <li>Github</li>
+
             </ul>
         </section>
         <section class="ThirdSection">
             <h1>Projects</h1>
             <ul>
-                <li><a href="https://github.com/ikumargaurav/eye-controlled-mouse" style = "text-decoration: none; color: white;" >Eye Controlled Mouse (Using cv2,
+                <li><a href="https://github.com/ikumargaurav/eye-controlled-mouse"
+                        style="text-decoration: none; color: white;">Eye Controlled Mouse (Using cv2,
                         Mediapipe, Pyautogui)</a></li>
-                <li>Portfolio Website </li>
+                <li><a href="https://github.com/ikumargaurav/ShulaTech_Solutions_Personal_Portfolio_Kumar"
+                        style="text-decoration: none; color: white; ">Personal Portfolio ( using
+                        HTML,CSS,Javascript)</a> </li>
             </ul>
 
 
@@ -269,6 +288,7 @@
                 <li>(2021)First Division in Class 10 from BSEB,Patna</li>
             </ul>
         </section>
+
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
@@ -283,10 +303,14 @@
             </div>
             <div class="footerSecond">
                 <ul>
-                    <li><a href="http://127.0.0.1:3000/kg.html">Home</a></li>
-                    <li><a href="https://www.linkedin.com/in/kgiit/">LinkedIn</a></li>
-                    <li><a href="https://github.com/ikumargaurav">Github</a></li>
-                    <li>Contact Me</li>
+                    <li><a href="http://127.0.0.1:3000/kg.html" style="text-decoration: none
+                    ; color: lightslategray;">Home</a></li>
+                    <li><a href="https://www.linkedin.com/in/kgiit/"
+                            style="text-decoration:none;color: lightslategray;">LinkedIn</a></li>
+                    <li><a href="https://github.com/ikumargaurav"
+                            style="text-decoration: none;color: lightslategray;">Github</a></li>
+                    <li><a href="form.html" style="text-decoration: none;color: lightslategray;">Contact Me</a></li>
+
 
 
 
@@ -294,20 +318,13 @@
 
             </div>
             <div class="footerThird">
-                www.kumarportfolio.com | All rights reserved
+                CopyRight &#169 www.kumarportfolio.com | All rights reserved
             </div>
             <div class="footerFourth">
             </div>
 
 
 
-
-        </div>
-
-
-
-
-    </footer>
 
 </body>
 
